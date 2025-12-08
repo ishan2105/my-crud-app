@@ -112,7 +112,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900">
-      {/* Navigation */}
       <nav className="bg-slate-950 bg-opacity-50 backdrop-blur-md border-b border-slate-700 sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-bold text-white">User Manager Pro</h1>
@@ -122,7 +121,6 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Hero Section */}
       <section className="relative py-20 px-4 overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-40 right-40 w-80 h-80 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
@@ -137,7 +135,6 @@ export default function Home() {
             A modern, full-stack CRUD application for managing users with real-time updates
           </p>
 
-          {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             <div className="bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg p-6 text-white">
               <div className="text-3xl font-bold mb-2">{users.length}</div>
@@ -162,7 +159,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Form Section */}
       {showForm && (
         <section className="py-12 px-4">
           <div className="max-w-2xl mx-auto">
@@ -218,7 +214,6 @@ export default function Home() {
         </section>
       )}
 
-      {/* Users List Section */}
       <section className="py-12 px-4 pb-20">
         <div className="max-w-5xl mx-auto">
           <h3 className="text-3xl font-bold text-white mb-8">Users Directory</h3>
@@ -266,7 +261,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="bg-slate-950 border-t border-slate-700 py-8 px-4">
         <div className="max-w-6xl mx-auto text-center text-slate-400 text-sm">
           <p>Built with Next.js 16 • MongoDB • TypeScript • Tailwind CSS</p>
